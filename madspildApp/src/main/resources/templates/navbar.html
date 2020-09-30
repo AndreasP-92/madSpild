@@ -2,9 +2,9 @@
 
 
 
-<nav th:fragment="navigation" class="navbar navbar-transparent navbar-expand-md sticky-top">
+<nav th:fragment="navigation" class="navbar navbar-transparent navbar-expand-md fixed-top sticky" style="background-color : #808080c7!important;">
     <div class="d-flex w-50 order-0">
-        <a class="navbar-brand mr-1" href="#"></a>
+        <a class="navbar-brand mr-1" href="/"><img th:src="@{/image/logo.png}" style="width:3%;"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -12,15 +12,18 @@
     <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Link <span class="sr-only">Home</span></a>
+                <a class="nav-link text-truncate text-white" href="/">Forside</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="//codeply.com">Codeply</a>
+                <a class="nav-link text-truncate text-white" href="#">Udregn dit Madspild</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-truncate text-white" href="#">Vores Partnere</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-white" href="#">Om Os</a>
             </li>
         </ul>
     </div>
-    <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">always show</span>
+    <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
 </nav>
