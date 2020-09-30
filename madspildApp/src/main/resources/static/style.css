@@ -14,28 +14,45 @@
 /*    background-color : grey!important;*/
 /*}*/
 
-.overskift{
-    color: white;
-
-
-}
-
 .partner{
     background-color: lightslategray;
 }
 
-.calculator{
+.calculator {
     background-color: white;
-
 }
 
-.form-group1{
-    width: 30%;
-
+.form-group1 {
+    width: 60%;
+    margin:auto;
 }
 .form-group2{
-    width: 30%;
+    width: 60%;
+    margin:auto;
 }
 .form-group3{
-    width: 30%;
+    width: 60%;
+    margin:auto;
+}
+
+#but1{
+
+    background-color: #199494;
+    width: 60%;
+
+}
+#but2{
+    background-color: #199494;
+    width: 60%;
+
+}
+.spacer {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.top-text{
+    font-size:2rem;
+    color: #199494;
+    text-align: center;
 }
