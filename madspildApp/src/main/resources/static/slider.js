@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $(".Modern-Slider").slick({
         autoplay:true,
-        autoplaySpeed:10000,
+        autoplaySpeed:7000,
         speed:600,
         slidesToShow:1,
         slidesToScroll:1,
