@@ -13,3 +13,18 @@
 /*.navbar{*/
 /*    background-color : grey!important;*/
 /*}*/
+
+.calculator{
+    background-color: #a71313;
+}
+
+.form-group1{
+    width: 30%;
+
+}
+.form-group2{
+    width: 30%;
+}
+.form-group3{
+    width: 30%;
+}
