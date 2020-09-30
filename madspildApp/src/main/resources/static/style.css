@@ -13,3 +13,29 @@
 /*.navbar{*/
 /*    background-color : grey!important;*/
 /*}*/
+
+.overskift{
+    color: white;
+
+
+}
+
+.partner{
+    background-color: lightslategray;
+}
+
+.calculator{
+    background-color: white;
+
+}
+
+.form-group1{
+    width: 30%;
+
+}
+.form-group2{
+    width: 30%;
+}
+.form-group3{
+    width: 30%;
+}
