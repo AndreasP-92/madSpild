@@ -20,58 +20,12 @@
 
 
 
+    <div th:replace="navbar :: navigation">
+
+    </div>
 
 
-    <!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
-<!--        <a class="navbar-brand" href="#">Navbar</a>-->
-<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--            <span class="navbar-toggler-icon"></span>-->
-<!--        </button>-->
-<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-<!--            <ul class="navbar-nav mr-auto">-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link active" href="#">Forsiden</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">Udregn dit Madspild</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">Vores Partner</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">Om Os</a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </nav>-->
-
-
-<!--    <div class="navigation">-->
-        <nav class="navbar navbar-transparent navbar-expand-md sticky-top">
-            <div class="d-flex w-50 order-0">
-                <a class="navbar-brand mr-1" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Link <span class="sr-only">Home</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="//codeply.com">Codeply</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
-            </div>
-            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">always show</span>
-        </nav>
-<!--    </div>-->
-
-<!--=================== SLIDER ============================ -->
+    <!--=================== SLIDER ============================ -->
 
     <div class="slider">
         <div>
@@ -133,39 +87,11 @@
     </div>
 </header>
 <div class="container">
-    
-    <form class ="calculator">
-        <div class="form-group">
-            <label for="exampleInputValue"></label>
-            <input type="Value" class="form-control" id="exampleInputValue" aria-describedby="valueHelp" placeholder="Mad i KG per uge">
-            <small id="valueHelp" class="form-text text-muted">Indtast forbrug af mad per uge</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPrice"></label>
-            <input type="price" class="form-control" id="exampleInputPrice" placeholder="Pris">
-            <small id="priceHelp" class="form-text text-muted">Indtast fødevare indkøbs pris</small>
-        </div>
-
-        <div class="form-group">
-            <label for="exampleInputWaste"></label>
-            <input type="waste" class="form-control" id="exampleInputWaste" placeholder="Madspild per uge">
-            <small id="wasteHelp" class="form-text text-muted">Indtast madspild per uge</small>
-        </div>
-
-        <button type="resultat" class="btn btn-primary">Resultat</button>
-        <button type="resultat" class="btn btn-primary">Resultat</button>
-
-    </form>
-
-
-
-    <div>
-        <h6 class="overskift">Partnere</h6>
-        <h7 class="Too Good to Go"></h7>
-        <a href="https://toogoodtogo.dk/da"></a>
-        <p>Vi drømmer om en planet uden madspild, og vi arbejder hver dag på at gøre denne drøm til virkelighed. Vores app er den nemmeste måde at involvere sig - bare download appen, log ind, og så er du klar til at redde lækker overskudsmad i forretninger nær dig. Lad dig overraske med overskudsmad til en fordelagtig pris, mens du samtidig gør planeten en tjeneste. Kom i gang allerede i dag!</p>
-
-
+    <div th:replace="udregnDitMadSpil :: udregn">
+        <!--        TOBIAS           -->
+    </div>
+    <div th:replace="partnere :: partnerFragment">
+        <!--        JEFFREY          -->
     </div>
 </div>
 <footer></footer>
