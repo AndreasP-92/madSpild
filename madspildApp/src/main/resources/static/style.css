@@ -14,45 +14,51 @@
 /*    background-color : grey!important;*/
 /*}*/
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.overskift{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
 .partner{
     background-color: lightslategray;
 }
 
-.calculator {
-    background-color: white;
+.overskifter{
+    color: white;
+    text-align: right;
+    font-size: 20px;
 }
 
-.form-group1 {
-    width: 60%;
-    margin:auto;
+.brødtekst{
+    color: white;
+    width: 100%;
+}
+
+
+
+
+
+.calculator{
+    background-color: white;
+
+}
+
+.form-group1{
+    width: 30%;
+
 }
 .form-group2{
-    width: 60%;
-    margin:auto;
+    width: 30%;
 }
 .form-group3{
-    width: 60%;
-    margin:auto;
+    width: 30%;
 }
+body { height : 100%;}
 
-#but1{
-
-    background-color: #199494;
-    width: 60%;
-
-}
-#but2{
-    background-color: #199494;
-    width: 60%;
-
-}
-.spacer {
-    padding-top: 10px;
-    padding-bottom: 10px
-}
-
-.top-text{
-    font-size:2rem;
-    color: #199494;
-    text-align: center;
-}
