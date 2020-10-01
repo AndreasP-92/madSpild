@@ -116,7 +116,18 @@
 }
 
 .info{
+
+    width:70%;
+    float:right;
+    text-align:right;
     font-size:20px;
+    text-align:right;
+    margin-right:100px;
+}
+.info:after{
+    content:"";
+    clear:both;
+    display:block;
 }
 
 .omOs{
