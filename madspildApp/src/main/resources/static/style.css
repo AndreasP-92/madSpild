@@ -14,6 +14,11 @@
 /*    background-color : grey!important;*/
 /*}*/
 
+.udregnMain{
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+
 .sticky {
     position: fixed;
     top: 0;

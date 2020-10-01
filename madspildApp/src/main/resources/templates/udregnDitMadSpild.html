@@ -2,24 +2,24 @@
 
 <div th:fragment="udregnFragment" class="container">
 
-    <form>
-        <div class ="calculator" style="width:60%; margin:auto;">
+    <form action="/postMadspildFact" method="post" enctype="multipart/form-data" id="prospects_form">
+        <div class ="calculator" style="width:37%; margin:auto;">
             <div id="top-text" class="top-text"> UDREGN DIT MADSPILD </div>
 
             <div class="form-group1" id="group1">
-                <label for="exampleInputValue"></label>
-                <input type="value" class="form-control" id="exampleInputValue" aria-describedby="valueHelp" placeholder="Mad i KG per uge">
+                <label for="foodKg"></label>
+                <input type="value" class="form-control" id="foodKg" name="foodKg" aria-describedby="valueHelp" placeholder="Mad i KG per uge">
                 <small id="valueHelp" class="form-text text-muted">Indtast forbrug af mad per uge</small>
             </div>
             <div class="form-group2">
-                <label for="exampleInputPrice"></label>
-                <input type="price" class="form-control" id="exampleInputPrice" placeholder="Pris">
+                <label for="price"></label>
+                <input type="price" class="form-control" id="price" name="price" placeholder="Pris">
                 <small id="priceHelp" class="form-text text-muted">Indtast fødevare indkøbs pris</small>
             </div>
 
             <div class="form-group3">
-                <label for="exampleInputWaste"></label>
-                <input type="waste" class="form-control" id="exampleInputWaste" placeholder="Madspild per uge">
+                <label for="wastePerWeek"></label>
+                <input type="waste" class="form-control" id="wastePerWeek" name="wastePerWeek" placeholder="Madspild per uge">
                 <small id="wasteHelp" class="form-text text-muted">Indtast madspild per uge</small>
             </div>
             <div class = "spacer">
@@ -34,7 +34,13 @@
             </div>
 
             <div class="button2" style="text-align:center;">
-                <button type="saves" class ="btn btn-primary" id="but2">Du spare XXXX per uge</button>
+                <!--/*@thymesVar id="myVar" type="templates"*/-->
+            <div th:if="${elm != null}">
+                <small id="place" class="form-text text-muted">Hvis du smidder 30% mindre ud:</small>
+
+                <button type="saves" class ="btn btn-primary" id="but2" th:text="${text01}+${elm}+${text02}"></button>
+
+            </div>
 
             </div>
 
@@ -44,3 +50,4 @@
     </form>
 
 </div>
+<script src="main.js"></script>
