@@ -33,20 +33,20 @@
     background-color:#637a91
 }
 
+.row{
+    margin-top: 7%;
+}
+
 
 .overskifter{
     color: white;
     font-size: 20px;
+
 }
 
 .brødtekst{
     color: white;
     width: 100%;
-}
-
-
-.partner{
-    background-color: lightslategray;
 }
 
 
