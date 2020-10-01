@@ -16,6 +16,11 @@ public class MadspildController {
     return "index";
     }
 
+    @GetMapping("/omos")
+    public String omOs(Model madspildFactModel){
+        return "omOs";
+    }
+
     @PostMapping("/postMadspildFact")
     public String postMadspildFact(WebRequest dataFromForm){
         String foodKG          = (dataFromForm.getParameter("test"));
