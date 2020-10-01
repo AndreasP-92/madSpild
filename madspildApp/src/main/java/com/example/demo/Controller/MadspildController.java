@@ -18,7 +18,12 @@ public class MadspildController {
 
     @PostMapping("/postMadspildFact")
     public String postMadspildFact(WebRequest dataFromForm){
-        MadspildFact madspildFact = new MadspildFact();
+        String foodKG          = (dataFromForm.getParameter("test"));
+        String price           = (dataFromForm.getParameter("test"));
+        String wastePerWeek    = (dataFromForm.getParameter("test"));
+
+        MadspildFact madspildFact = new MadspildFact(22,22,22);
+
         return "redirect:/";
     }
 }
