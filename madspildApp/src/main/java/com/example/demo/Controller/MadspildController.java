@@ -11,9 +11,33 @@ import org.springframework.web.context.request.WebRequest;
 @Controller
 public class MadspildController {
 
+//    MadspildFact fact = new MadspildFact(1000,100000,500);
+    MadspildFact fact;
+
+
     @GetMapping("/")
-    public String index(Model madspildFactModel){
-    return "index";
+    public String index(Model MadSpildController){
+
+
+        String test ="test";
+        if(fact != null){
+            int foodKg          = fact.getFoodKg();
+            int foodPrice       = fact.getPrice();
+            int wasterPerWeek   = fact.getWastePerWeek();
+
+            int pricePerKg          = foodPrice / foodKg;
+            int totalWastePerWeek   = wasterPerWeek / 100 * 30;
+            int total               = totalWastePerWeek * pricePerKg;
+
+            String text01           = "Spare du ";
+            String text02           = "kr om ugen";
+
+            MadSpildController.addAttribute("elm" , total);
+            MadSpildController.addAttribute("text01" , text01);
+            MadSpildController.addAttribute("text02" , text02);
+        }
+
+        return "index";
     }
 
     @GetMapping("/omos")
@@ -23,12 +47,18 @@ public class MadspildController {
 
     @PostMapping("/postMadspildFact")
     public String postMadspildFact(WebRequest dataFromForm){
-        String foodKG          = (dataFromForm.getParameter("test"));
-        String price           = (dataFromForm.getParameter("test"));
-        String wastePerWeek    = (dataFromForm.getParameter("test"));
+        String foodKG          = (dataFromForm.getParameter("foodKg"));
+        String price           = (dataFromForm.getParameter("price"));
+        String wastePerWeek    = (dataFromForm.getParameter("wastePerWeek"));
 
-        MadspildFact madspildFact = new MadspildFact(22,22,22);
+        int parseFoodKg         = Integer.parseInt(foodKG);
+        int parsePrice          = Integer.parseInt(price);
+        int parseWasterPerWeek  = Integer.parseInt(wastePerWeek);
 
-        return "redirect:/";
+        MadspildFact greatFact = new MadspildFact(parseFoodKg,parsePrice,parseWasterPerWeek);
+
+        fact = greatFact;
+
+        return "redirect:/#udregnMain";
     }
 }
