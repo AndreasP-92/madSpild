@@ -79,10 +79,11 @@
     font-size:20px;
 }
 #but2{
-    background-color: #4eb070;
+    background-color: white;
     width: 60%;
     color:black;
     font-size:20px;
+    margin-left:125px;
 }
 
 .top-text {
@@ -105,6 +106,7 @@
 .container1{
     width: 100%;
     margin-left:55px;
+
 }
 .overskrift1{
     font-size:30px;
@@ -169,3 +171,4 @@ personligeInfo{
 .Brødtekst{
     text-size: 50%;
 }
+
