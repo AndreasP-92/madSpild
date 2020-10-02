@@ -9,6 +9,7 @@
     <title>Om Os</title>
 </head>
 <body>
+
     <header>
         <!--=================== NAVIGATION ============================ -->
 
@@ -18,14 +19,18 @@
 
     </header>
     <main>
-        <div class="omOs container" id="om os" th:each="individ: ${person}">
-            <div>
-                <h10  th:text="${individ.getName()}" class="navn"></h10>
-                <p th:text="${individ.getText()}" class="informationer"></p>
-                <img th:image="${individ.getImg()}" src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C" style="width: 41%;  margin: -45%;" class="billed">
 
+
+        <div class="omOs container" id="om os" th:each="individ: ${person}">
+
+                <h10 class="navn" th:text="${individ.getName()}" ></h10>
+                <p class="informationer" th:text="${individ.getText()}" ></p>
+                <img class="billed" th:image="${individ.getImg()}" src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C" style="width: 41%;  margin: -45%;" >
 
             </div>
+
+            </div>
+
             <div>
             <img class="billed" src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C" style="width: 41%;  margin: -45%;">
             </div>
@@ -34,6 +39,7 @@
             <h10>Andreas Pedersen</h10>
             </div>
             <div class="Brødtekst">
+
             <p class="informationer">
                 Primære fokus er softwareudvikling og systemintegrationer.
                 Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.
@@ -48,7 +54,8 @@
 
                 <br><br>Windows brugerflader, Webbrugerflader, Mobile apps, Server applikationer, Windows og Web Services, Databaser og DBMS, Microsoft Office udvidelser, System integrationer.
             </p>
-            </div>
+                </div>
+
         </div>
     </main>
 </body>
