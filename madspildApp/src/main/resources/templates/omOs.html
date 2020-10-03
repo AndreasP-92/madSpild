@@ -21,7 +21,7 @@
     <main>
 
 
-        <div class="omOs container" id="om os" th:each="individ: ${person}">
+        <div class="omOs container" id="om os" th:each="individ: ${person}" >
 
                 <h10 class="navn" th:text="${individ.getName()}" ></h10>
                 <p class="informationer" th:utext="${individ.getText()}" ></p>
