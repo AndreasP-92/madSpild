@@ -1,6 +1,5 @@
 package com.example.demo.Controller;
 
-
 import com.example.demo.Models.MadspildFact;
 import com.example.demo.Models.PersonFact;
 import org.springframework.stereotype.Controller;
