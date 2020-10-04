@@ -28,8 +28,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/madspildApp" />
   </component>
   <component name="RunManager">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -41,6 +43,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="694395ce-c14a-49af-a87b-41a57884bf24" name="Default Changelist" comment="" />
@@ -49,13 +54,22 @@
       <option name="presentableId" value="Default" />
       <updated>1601379746747</updated>
       <workItem from="1601379751037" duration="753000" />
+      <workItem from="1601796315840" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="33" key="#DemoApplication" timestamp="1601796355288">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="458" y="33" key="#DemoApplication/0.0.1600.870@0.0.1600.870" timestamp="1601796355288" />
+    <state x="580" y="190" key="FileChooserDialogImpl" timestamp="1601796390881">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="580" y="190" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1601796390881" />
     <state x="303" y="49" key="new project wizard" timestamp="1601380509161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

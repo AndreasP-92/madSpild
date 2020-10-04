@@ -25,27 +25,27 @@ public class MadspildController {
 
 //    ================================= ANDREAS =================================
     String nameAnd             = "Andreas Pedersen";
-    String imgAnd              = "https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
-    String textAnd             = " Primære fokus er softwareudvikling og systemintegrationer.\n" +
-        "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
-        "\n" +
-        "                   Udgangspunkts i dine krav, analyserer,designer og programmerer jeg din unikke softwareløsning.\n" +
-        "\n" +
-        "                   <br><br><h11 class=\"titel\">Software</h11>\n" +
-        "                   <br>UI/UX - Design, Prototying, Usability testing, System design, Software arkiteturer, API og Servicedesign, Agil projektstyring med Scrum\n" +
-        "\n" +
-        "                   <br><br><h12 class=\"titel\">Programmering</h12>\n" +
-        "                   <br>Jeg har de rette kompetencer, og er ekspert når det drejer sig om programmering.\n" +
-        "\n" +
-        "                   <br><br>Windows brugerflader, Webbrugerflader, Mobile apps, Server applikationer, Windows og Web Services, Databaser og DBMS, Microsoft Office udvidelser, System integrationer.";
+    String imgAnd              = "/image/Andreas.jpg";
+    String textAnd             = " Andreas's Primære fokus er softwareudvikling og systemintegrationer.\n" +
+            "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
+            "\n" +
+            "                   Udgangspunkts i dine krav, analyserer,designer og programmerer jeg din unikke softwareløsning.\n" +
+            "\n" +
+            "                   <br><br><h11 class=\"titel\">Software</h11>\n" +
+            "                   <br>UI/UX - Design, Prototying, Usability testing, System design, Software arkiteturer, API og Servicedesign, Agil projektstyring med Scrum\n" +
+            "\n" +
+            "                   <br><br><h12 class=\"titel\">Programmering</h12>\n" +
+            "                   <br>Jeg har de rette kompetencer, og er ekspert når det drejer sig om programmering.\n" +
+            "\n" +
+            "                   <br><br>Windows brugerflader, Webbrugerflader, Mobile apps, Server applikationer, Windows og Web Services, Databaser og DBMS, Microsoft Office udvidelser, System integrationer.";
 
     PersonFact andreasObj   = new PersonFact(nameAnd, textAnd, imgAnd);
 
 
     //    ================================= JEFFREY =================================
-    String nameJef          ="Jeffrey Oechsner";
-    String imgJef           ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
-    String textJef         = " Primære fokus er softwareudvikling og systemintegrationer.\n" +
+    String nameJef              ="Jeffrey Oechsner";
+    String imgJef               ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
+    String textJef              = "Jeffrey's Primære fokus er softwareudvikling og systemintegrationer.\n" +
             "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
             "\n" +
             "                   Udgangspunkts i dine krav, analyserer,designer og programmerer jeg din unikke softwareløsning.\n" +
@@ -60,9 +60,9 @@ public class MadspildController {
 
     PersonFact jeffreyObj   = new PersonFact(nameJef, textJef, imgJef);
 //    ================================= TOBIAS =================================
-    String nameTob          ="Tobias Cho";
-    String imgTob           ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
-    String textTob         = " Primære fokus er softwareudvikling og systemintegrationer.\n" +
+    String nameTob              ="Tobias Cho";
+    String imgTob               ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
+    String textTob              = "Tobias's Primære fokus er softwareudvikling og systemintegrationer.\n" +
             "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
             "\n" +
             "                   Udgangspunkts i dine krav, analyserer,designer og programmerer jeg din unikke softwareløsning.\n" +
