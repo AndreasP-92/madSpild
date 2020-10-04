@@ -26,6 +26,8 @@
     padding-bottom: 10%;
 }
 
+/*--------------------partnere Css--------------------*/
+/*<h6>*/
 
 .overskift{
     color: white;
@@ -33,24 +35,25 @@
     font-size: 30px;
 }
 
+/*<Main>*/
 .partnerMain{
     padding-top: 7%;
     padding-bottom: 7%;
     width:100%;
     background-color:#637a91
 }
-
+/*<opdeling>*/
 .row{
     margin-top: 7%;
 }
 
-
+/*<h7 / h8>*/
 .overskifter{
     color: white;
     font-size: 20px;
 
 }
-
+/*<p>*/
 .brødtekst{
     color: white;
     width: 100%;
@@ -133,7 +136,9 @@
     clear:both;
     display:block;
 }
+ /*-------------------------------------------------*/
 
+/*--------------------Om Os Css--------------------*/
 .omOs{
     width: 40%;
     padding-right: 15px;
@@ -144,36 +149,34 @@
     /*padding-bottom: 100px;*/
 }
 
-
-personligeInfo{
-    color: black;
-}
-
+/*-------------------------------------------------*/
+/*<p>*/
 .informationer{
     text-size: 30%;
     text-align: inherit;
 }
-
+/*<h10>*/
 .navn{
     font-size: 30px;
     text-align: inherit;
 }
-
+/*<h11 / h12>*/
 .titel{
     font-size: 20px;
     color: black;
 }
-
+/*<Img>*/
 .billed{
     vertical-align: text-bottom;
     border-style: none;
     border-radius: 50%;
     width:38%;
 }
-
+/*<>*/
 .billedDiv{
     text-align: center;
 }
+/*<p>*/
 .Brødtekst{
     text-size: 50%;
 }
