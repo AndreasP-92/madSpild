@@ -128,6 +128,8 @@
     text-align:right;
     margin-right:100px;
 }
+
+
 .info:after{
     content:"";
     clear:both;
