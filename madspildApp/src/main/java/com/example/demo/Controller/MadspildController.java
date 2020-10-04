@@ -65,7 +65,7 @@ public class MadspildController {
         PersonFact jeffreyObj   = new PersonFact(nameJef, textJef, imgJef);
 //    ================================= TOBIAS
         String nameTob              ="Tobias Cho";
-        String imgTob               ="/image/Tobias03.jpg";
+        String imgTob               ="/image/Tobias.jpg";
         String textTob              = "Tobias's Primære fokus er softwareudvikling og systemintegrationer.\n" +
                 "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
                 "\n" +
@@ -97,9 +97,6 @@ public class MadspildController {
 // ========================================== GET INDEX =====================================
     @GetMapping("/")
     public String index(Model MadSpildController){
-
-
-        String test ="test";
         if(fact != null){
             int foodKg          = fact.getFoodKg();
             int foodPrice       = fact.getPrice();
