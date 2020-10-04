@@ -18,7 +18,7 @@
         </div>
 
     </header>
-    <main>
+    <main th:if="${not #lists.isEmpty(person)}">
         <div class="omOs container" id="om os" th:each="individ: ${person}" >
                 <h10 class="navn" th:text="${individ.getName()}" ></h10>
                 <p class="informationer" th:utext="${individ.getText()}" ></p>
@@ -32,9 +32,6 @@
             <div     th:replace="footer :: footerFragment">
             </div>
         </div>
-
-
-
     </footer>
 </body>
 </html>
