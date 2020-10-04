@@ -14,105 +14,101 @@
     <title>MadspildDK</title>
 </head>
 <body>
-<header >
+    <header >
 
-    <!--=================== NAVIGATION ============================ -->
-
-
+        <!--=================== NAVIGATION ============================ -->
 
 
-    <div th:replace="navbar :: navigation">
-
-    </div>
 
 
-    <!--=================== SLIDER ============================ -->
+        <div th:replace="navbar :: navigation">
 
-    <div class="slider">
-        <div>
-            <div th:class="Modern-Slider">
-                <!-- Item -->
-                <div class="item">
-                    <div class="img-fill">
-                        <img th:src="@{/image/2400_hvorfor-er-madspild-et-problem.jpg}"/>
-                        <div class="info">
-                            <div>
-                                <h3>Vidste du?</h3>
-                                <h5>30% madspild, koster 400 millioner <br>kroner om året i Danmark</h5>
+        </div>
+
+
+        <!--=================== SLIDER ============================ -->
+
+        <div class="slider">
+            <div>
+                <div th:class="Modern-Slider">
+                    <!-- Item -->
+                    <div class="item">
+                        <div class="img-fill">
+                            <img th:src="@{/image/2400_hvorfor-er-madspild-et-problem.jpg}"/>
+                            <div class="info">
+                                <div>
+                                    <h3>Vidste du?</h3>
+                                    <h5>30% madspild, koster 400 millioner <br>kroner om året i Danmark</h5>
+                                </div>
                             </div>
-                        </div>
 
-                    </div>
-                </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item">
-                    <div class="img-fill">
-                        <img th:src="@{/image/appleWasteImg.jpg/}"/>
-                        <div class="info">
-                            <div>
-                                <h3>Vidste du?</h3>
-                                <h5>Over 1/3 af al mad, der produceres globalt, går til spilde</h5>
-                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item">
-                    <div class="img-fill">
-                        <img th:src="@{/image/foodwaste01.jpg/}" alt="">
-                        <div class="info">
-                            <div>
-                                <h3>Vidste du?</h3>
-                                <h5>Alle verdens næsten en milliard sultne mennesker kunne fodres med mindre end en fjerdedel af den mad, der spildes i USA, Storbritannien og Europa.</h5>
+                    <!-- // Item -->
+                    <!-- Item -->
+                    <div class="item">
+                        <div class="img-fill">
+                            <img th:src="@{/image/appleWasteImg.jpg/}"/>
+                            <div class="info">
+                                <div>
+                                    <h3>Vidste du?</h3>
+                                    <h5>Over 1/3 af al mad, der produceres globalt, går til spilde</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- // Item -->
-                <!-- Item -->
-                <div class="item">
-                    <div class="img-fill">
-                        <img th:src="@{/image/foodwaste02.jpg/}" alt="">
-                        <div class="info">
-                            <div>
-                                <h3>Vidste du?</h3>
-                                <h5>Et område større end Kina bruges til at dyrke mad, der aldrig spises.</h5>
+                    <!-- // Item -->
+                    <!-- Item -->
+                    <div class="item">
+                        <div class="img-fill">
+                            <img th:src="@{/image/foodwaste01.jpg/}" alt="">
+                            <div class="info">
+                                <div>
+                                    <h3>Vidste du?</h3>
+                                    <h5>Alle verdens næsten en milliard sultne mennesker kunne fodres med mindre end en fjerdedel af den mad, der spildes i USA, Storbritannien og Europa.</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- // Item -->
+                    <!-- Item -->
+                    <div class="item">
+                        <div class="img-fill">
+                            <img th:src="@{/image/foodwaste02.jpg/}" alt="">
+                            <div class="info">
+                                <div>
+                                    <h3>Vidste du?</h3>
+                                    <h5>Et område større end Kina bruges til at dyrke mad, der aldrig spises.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // Item -->
                 </div>
-                <!-- // Item -->
             </div>
         </div>
-    </div>
-</header>
-<main>
-<!--    =============================== CALCULATOR ===================================== -->
-        <div class="udregnMain" id="udregnMain" style="width:100%;background-color:#833535" >
-<!--        <p th:text="${elm}"></p>-->
+    </header>
+    <main>
+    <!--    =============================== CALCULATOR ===================================== -->
+            <div class="udregnMain" id="udregnMain" style="width:100%;background-color:#833535" >
+    <!--        <p th:text="${elm}"></p>-->
 
-        <div th:include="udregnDitMadSpild :: udregnFragment">
-            <!--        TOBIAS           -->
+            <div th:include="udregnDitMadSpild :: udregnFragment">
+                <!--        TOBIAS           -->
+            </div>
         </div>
-    </div>
-<!--====================================== SPONSOR ===================================== -->
-    <div class="partnerMain" id="partnerMain">
-        <div th:replace="partnere :: partnerFragment">
-            <!--        JEFFREY          -->
+    <!--====================================== SPONSOR ===================================== -->
+        <div class="partnerMain" id="partnerMain">
+            <div th:replace="partnere :: partnerFragment">
+                <!--        JEFFREY          -->
+            </div>
         </div>
-    </div>
-</main>
-<footer>
-    <div style="width:100%;background-color:#808080c7">
-    <div     th:replace="footer :: footerFragment">
-    </div>
-    </div>
-
-
-
-</footer>
+    </main>
+    <footer>
+        <div style="width:100%;background-color:#808080c7">
+            <div th:replace="footer :: footerFragment"></div>
+        </div>
+    </footer>
 </body>
 <script src="main.js"></script>
 <script src="slider.js"></script>
