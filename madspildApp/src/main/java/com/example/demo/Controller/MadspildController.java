@@ -18,8 +18,6 @@ public class MadspildController {
     MadspildFact fact;
 
 
-
-
 //    ******************************** Persons in Array ********************************
     public static List<PersonFact> data () {
 
