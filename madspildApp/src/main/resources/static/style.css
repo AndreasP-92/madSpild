@@ -55,12 +55,12 @@
     color: white;
     width: 100%;
 }
-
-
+/*----------------------------------------------------------------------*/
+/* lommeregner */
 .calculator {
     background-color: white;
 }
-
+/* tekst bokse */
 .form-group1 {
     width: 60%;
     margin:auto;
@@ -73,7 +73,7 @@
     width: 60%;
     margin:auto;
 }
-
+ /* knapper */
 #but1 {
     background-color: #4eb070;
     width: 60%;
@@ -87,29 +87,27 @@
     font-size:20px;
     margin-left:112px;
 }
-
+ /* Madspild overskrift */
 .top-text {
     font-size: 3rem;
     color: #199494;
     text-align: center;
     padding-top: 20px;
 }
-
+ /* mellemrum mellem knapperne */
 .spacer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.container {
-    /*padding-top: 100px;*/
-    /*padding-bottom: 100px;*/
-}
 
 .container1{
     width: 100%;
     margin-left:55px;
 
 }
+
+ /* Footer */
 .overskrift1{
     font-size:30px;
 
@@ -128,7 +126,7 @@
     text-align:right;
     margin-right:100px;
 }
-
+ /*-------------------------------------------------*/
 
 .info:after{
     content:"";
