@@ -48,7 +48,7 @@ public class MadspildController {
 
         //    ================================= JEFFREY
         String nameJef              ="Jeffrey Oechsner";
-        String imgJef               ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
+        String imgJef               ="/image/Jeffrey.jpg";
         String textJef              = "Jeffrey's Primære fokus er softwareudvikling og systemintegrationer.\n" +
                 "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
                 "\n" +
@@ -65,7 +65,7 @@ public class MadspildController {
         PersonFact jeffreyObj   = new PersonFact(nameJef, textJef, imgJef);
 //    ================================= TOBIAS
         String nameTob              ="Tobias Cho";
-        String imgTob               ="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C";
+        String imgTob               ="/image/Tobias03.jpg";
         String textTob              = "Tobias's Primære fokus er softwareudvikling og systemintegrationer.\n" +
                 "                   Med mine kompetencer og erfaringer, kan jeg hjælpe dig med at finde den helt rigtige softwareløsning.\n" +
                 "\n" +

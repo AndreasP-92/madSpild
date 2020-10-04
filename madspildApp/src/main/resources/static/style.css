@@ -13,17 +13,19 @@
 /*.navbar{*/
 /*    background-color : grey!important;*/
 /*}*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
 
 .udregnMain{
     padding-top:10%;
     padding-bottom: 10%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
 
 .overskift{
     color: white;
@@ -99,8 +101,8 @@
 }
 
 .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 100px;*/
 }
 
 .container1{
@@ -138,8 +140,8 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 10%;
-    padding-bottom: 100px;
+    padding-top: 6%;
+    /*padding-bottom: 100px;*/
 }
 
 
@@ -166,9 +168,12 @@ personligeInfo{
     vertical-align: text-bottom;
     border-style: none;
     border-radius: 50%;
-    width:50%;
+    width:38%;
 }
 
+.billedDiv{
+    text-align: center;
+}
 .Brødtekst{
     text-size: 50%;
 }

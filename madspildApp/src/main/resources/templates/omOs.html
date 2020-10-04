@@ -20,9 +20,12 @@
     </header>
     <main th:if="${not #lists.isEmpty(person)}">
         <div class="omOs container" id="om os" th:each="individ: ${person}" >
+            <div class="billedDiv">
+
+                <img class="billed" th:src="${individ.getImg()}"/>
+            </div>
                 <h10 class="navn" th:text="${individ.getName()}" ></h10>
                 <p class="informationer" th:utext="${individ.getText()}" ></p>
-                <img class="billed" th:src="${individ.getImg()}"/>
 <!--                <img class="billed" th:image="${individ.getImg()}" src="https://scontent-cph2-1.xx.fbcdn.net/v/t1.0-9/96590744_10157355281853652_130235571762102272_o.jpg?_nc_cat=105&amp;_nc_sid=09cbfe&amp;_nc_ohc=NXDE3vFJPdoAX83Y6TZ&amp;_nc_oc=AQn0zUa7fjO9WppU7dSgWxlnm67vfamFkfAG9UkE56-_3XJxv-_ZvRe2JjcOkhv1pDg&amp;_nc_ht=scontent-cph2-1.xx&amp;oh=f580a251492197451ee7cdd7fbba3713&amp;oe=5F9B9D0C" style="width: 41%;  margin: -45%;" >-->
             </div>
             </div>
